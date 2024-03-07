@@ -1,0 +1,77 @@
+body{
+    background-color: #F3F2ED;
+}
+.navbar{
+    display:flex;
+    height:90px;
+    /* background-color: red; */
+    margin:auto;
+    justify-content: space-around;
+    position:relative;
+    z-index:3
+}
+.navbar-text{
+    font-size: large;
+    font-weight:bold;
+}
+.navbar-image{
+    
+    position:absolute;
+    z-index:2;
+    width:100%;
+    height:250px
+}
+.navbar-button{
+    background-color:rgba(0, 108, 228, 1);
+    color:white;
+    padding:8px;
+    
+}
+.featured-Destinations{
+   margin-top:250px;
+}
+/* .testimonials{
+    background-color: #006ce4;
+     position:absolute; 
+    width:1000px;
+     z-index:10; 
+} */
+.bgtestimonials{
+    background:#006ce4 ;
+    height: 450px;
+    position:relative;
+    z-index: 1;
+}
+.testimonialsShadow1{
+    /* position:relative;
+    z-index: -1; */
+   position:absolute;
+   z-index: 2;
+   margin-top:-450px ;
+   opacity: 0.5;
+}
+.testimonialsnotShadow{
+    position:absolute;
+    z-index: 3;
+    margin-top:-250px;
+   margin-left: 230px;
+    background-color: aqua;
+    width:750px;
+    border:2px;
+    border-color: red;
+    margin-top:-450px ;
+}
+.testimonialsShadow2{
+    /* position:absolute;
+    z-index: -1;
+    margin-left: 750px; */
+    position:absolute;
+    margin-left:1050px ;
+    position:absolute;
+   z-index: 2;
+   margin-top:-450px ;
+   opacity: 0.5;
+}
+.totalTestimonials{
+   margin-top: 100px;
+}
